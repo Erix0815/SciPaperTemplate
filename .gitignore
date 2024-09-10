@@ -2,6 +2,7 @@
 *.pdf
 *_tmp.html
 main-plantuml.latex
+Anhang.zip
 
 # Ausnahmen:
 !richtlinien/*
