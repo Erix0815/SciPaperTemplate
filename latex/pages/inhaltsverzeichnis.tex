@@ -1,0 +1,18 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% fuck whoever made multitoc %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setcounter{tocdepth}{3}
+\makeatletter
+\def\mytoc{
+    \section*{Inhaltsverzeichnis}
+    \setlength{\columnseprule}{0.5pt}
+    \setlength{\columnsep}{20pt}
+    \begin{multicols*}{2}
+        \@starttoc{toc}
+        \listoftodos[\vfill]
+    \end{multicols*}
+}
+\makeatother
+\mytoc
+\newpage

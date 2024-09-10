@@ -1,0 +1,67 @@
+\section{Beispiele}
+Hier befinden sich einige Beispiele zu tollen Sachen, die man in \TeX\LaTeX\TeX machen kann.
+
+\subsection{Citation / Refs}
+"Lorem Ipsum \ldots" \footcite[vgl.][S. 420]{Test} \\
+Hier findest du tollen Code: Abb. \ref{CSharp} auf Seite \pageref{CSharp}
+
+\subsection{PlantUML}
+\begin{figure}[h]
+  \centering
+  \begin{plantuml}
+    @startuml
+    hide footbox
+    !pragma teoz true
+
+    participant Alice as a
+    participant  Eve  as e
+    participant  Bob  as b
+    activate a
+    activate e
+    activate b
+
+      a ->x e: Message
+    & e x-> b: Message'
+
+    @enduml
+  \end{plantuml}
+  \caption{Pumml}
+  \label{puml}
+\end{figure}
+
+\subsection{Codeblocks}
+\begin{figure}[h]
+  \begin{lstlisting}[language={[Sharp]C}]
+    #using System
+    public static int main()
+    {
+      Console.Writeline("Hello world!");
+      return 0;
+    }
+  \end{lstlisting}
+  \caption{C\# - Code}
+  \label{CSharp}
+\end{figure}
+
+\subsection{Tables}
+\begin{figure}[h]
+  \begin{tabularx}{\textwidth}{|r||X|c|}
+    \hline & Spalte A & Spalte B \\
+    \hline
+    \hline Zeile 1 &
+    Lorem ipsum dolor sit amet,
+    consectetuer adipiscing elit.
+    Etiam lobortis facilisis sem.
+    Nullam nec mi et neque pharetra sollicitudin.
+    & \LaTeX \\
+    \hline Zeile 2 & He He! *moonwalks casually* & Micel Jakson \\
+    \hline
+  \end{tabularx}
+  \caption{Tabbelllllle}
+  \label{tab:tab}
+\end{figure}
+
+\newpage
+\subsection{ToDos}
+\td{Beispiel}
+\listoftodos
