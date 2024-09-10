@@ -1,0 +1,10 @@
+{
+    "editor.wordWrap": "on",
+    "explorer.excludeGitIgnore": true,
+    "plantuml.jar": "",
+    "plantuml.render": "Local",
+    "plantuml.exportFormat": "latex:nopreamble",
+    "plantuml.exportSubFolder": false,
+    "latex-workshop.latex.recipes": [{"name": "erx-part","tools": ["erxtex"]},{"name": "erx-full","tools": ["erxlatex"]},],
+    "latex-workshop.latex.tools": [{"name": "erxtex","command": ".\\make_fast.bat"},{"name": "erxlatex","command": "..\\make.bat"},],
+}

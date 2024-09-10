@@ -1,0 +1,22 @@
+{"rule":"GERMAN_SPELLER_RULE",                     "sentence":"^@startuml .* @enduml .*$"}
+{"rule":"PFEILE",                                  "sentence":"^@startuml .* @enduml .*$"}
+{"rule":"LEERZEICHEN_NACH_VOR_ANFUEHRUNGSZEICHEN", "sentence":"^@startuml .* @enduml .*$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE",            "sentence":"^@startuml .* @enduml .*$"}
+{"rule":"GERMAN_WORD_REPEAT_RULE",                 "sentence":"^@startuml .* @enduml .*$"}
+{"rule":"DE_DOUBLE_PUNCTUATION",                   "sentence":"^@startuml .* @enduml .*$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QDie eigentliche Berechnung geschieht standardmäßig in einer anderen Codedatei als der des zugehörigen Typs, beispielsweise befindet sich der Code zum Depalettieren in der Datei uType4Depal.src und die zugehörigen Berechnungen in u_\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QDie eigentliche Berechnung geschieht standardmäßig in einer anderen Codedatei als der des zugehörigen Typs, beispielsweise befindet sich der Code zum Depalettieren in der Datei uType4Depal.src und die zugehörigen Berechnungen in uType4Calculation.src.\\E$"}
+{"rule":"DE_CASE","sentence":"^\\QBeispielsweise befindet sich die Mitte der Plattenoberfläche bei den Koordinaten \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q und die Oberkante der \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q-ten Schicht auf der Palette liegt bei \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q Die nötigen Offsets zum Greifen des nächsten Teils auf der Palette, werden jedoch nicht in der Robotersteuerung, sondern in der \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, mithilfe von firmeninternen Bibliotheken, berechnet und an die Robotersteuerung übergeben, die dann die Offsets beim Verfahren auf den Palettenursprung addiert.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QVariablenname Datentyp Verwendung ChosenJob INT Speichern des nächsten ausgewählten Jobs GripperHasItem BOOL Signal, dass sich im Greifer ein ECO-Pack befindet ItemAvailible BOOL Zeigt an, dass noch mindestens ein ECO-Pack auf der palette liegt PlacePosFree BOOL True, wenn auf der Gebindefördertechnik Platz für noch ein Item ist Konfigurationsparameter des MLDB-Datentreibers\\E$"}
+{"rule":"DE_CASE","sentence":"^\\QVariablenname Datentyp Verwendung ChosenJob INT Speichern des nächsten ausgewählten Jobs GripperHasItem BOOL Signal, dass sich im Greifer ein ECO-Pack befindet ItemAvailible BOOL Zeigt an, dass noch mindestens ein ECO-Pack auf der palette liegt PlacePosFree BOOL True, wenn auf der Gebindefördertechnik Platz für noch ein Item ist Konfigurationsparameter des MLDB-Datentreibers\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QDie Variablen werden zum Teil auch vom Codebaustein des Greifers beschrieben, da dort die Signale der Sensoren verarbeitet werden und einige Merker, wie PlacePosFree\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QVariablenname Datentyp Verwendung ChosenJob INT Zum Speichern des nächsten ausgewählten Jobs.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QGripperHasItem BOOL Signal, dass sich im Greifer ein ECO-Pack befindet.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QItemAvailible BOOL Zeigt an, dass noch mindestens ein ECO-Pack auf der Palette liegt.\\E$"}
+{"rule":"DE_CASE","sentence":"^\\QVariablenname Datentyp Verwendung ChosenJob INT Zum Speichern des nächsten ausgewählten Jobs.\\E$"}
+{"rule":"DE_CASE","sentence":"^\\QItemAvailible BOOL Zeigt an, dass noch mindestens ein ECO-Pack auf der Palette liegt.\\E$"}
+{"rule":"DE_CASE","sentence":"^\\Q\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q) Die Abfragen müssen einzeln in der \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q-Programmiersprache \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q programmiert werden.\\E$"}
+{"rule":"DE_CASE","sentence":"^\\Q\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q) Innerhalb der Shapes, die Programmierung in \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q ermöglichen sind komplexe Programme möglich.\\E$"}
+{"rule":"DE_CASE","sentence":"^\\Q\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q & \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q) Die Abfragen müssen einzeln in der \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q-Programmiersprache \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q programmiert werden.\\E$"}
+{"rule":"DE_CASE","sentence":"^\\Q\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q) Hier muss nicht auf eine freie \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q gewartet werden, da erst ein weiteres ECO-Pack aufgehoben wird, wenn die \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q wieder frei ist.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QStop it, he's already dead :'c\\E$"}
